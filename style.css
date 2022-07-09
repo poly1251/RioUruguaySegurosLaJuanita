@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+
+.mi-header {
+    background: #bdc3c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mi-header div#logo {
+
+    width: 100px;
+}
+
+
+.mi-header #logo img {
+    width: 100%;
+    border-radius: 30%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.menu div {
+    margin: 0 100px;
+}
+
+.a-menu {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.a-menu:hover {
+    color: beige;
+    text-decoration: overline;
+}
+     /*******Section2*****/
+.articulo2{
+    background-color: palegoldenrod;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subtitulo-sec2{
+    text-align: center;
+}
+
+.ubicacion iframe{
+    width: 100%;
+}
+
+.card-fem{
+    width: 10%;
+    margin: 10px;
+}
+.mb-3{
+    color: blue;
+    width: 20%;
+    margin: 30px;
+}
+
+.enviar-contacto{
+    color: blue;
+    width: 30%;
+    margin: 30px;
+}
+.label-nombre{
+    margin-top: 10px;
+}
+
+
+.his-h3{
+    text-align: center;
+}
+
+.his-p{
+    margin: 20px;
+}
