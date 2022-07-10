@@ -1,2 +1,2 @@
-# final-potrero
+# RioUruguaySegurosLaJuanita
 trabajo final de potrero digital 
